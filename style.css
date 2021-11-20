@@ -305,7 +305,7 @@ ion-icon{
 }
 
 
-.contact-form button{
+.contact-form a{
     float: right;
     padding: 20px 30px;
     border-radius: 26px;
@@ -317,8 +317,9 @@ ion-icon{
     box-shadow: 0px 10px 20px 10px #2221213b;
     transition: box-shadow 0.4s;
     cursor: pointer;
+    text-decoration: none;
 }
-.contact-form button:hover{
+.contact-form a:hover{
     box-shadow: none;
 }
 @media only screen and (min-width: 700px){
